@@ -27,8 +27,8 @@ def write_recent_file(filepath, recent_notes)
   end 
 end 
 
-notes_path = "#{ENV['HOME']}/Notes/"
-recent_filepath = notes_path + 'RECENT.md'
+notes_path = "#{ENV['HOME']}/Documents/Notes/"
+recent_filepath = notes_path + '+003 Recent.md'
 
 recent_notes = read_markdown_directory(notes_path)
 

@@ -39,8 +39,8 @@ def write_todo_file(filepath, todo_lines)
   end 
 end 
 
-notes_path = "#{ENV['HOME']}/Notes/"
-todo_filepath = notes_path + 'TODO.md'
+notes_path = "#{ENV['HOME']}/Documents/Notes/"
+todo_filepath = notes_path + '+002 ToDo.md'
 
 notes = read_markdown_directory(notes_path)
 todo_lines = extract_todo_lines(notes)
