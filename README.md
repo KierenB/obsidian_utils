@@ -12,7 +12,7 @@ To run:
 ruby journal.rb
 ```
 
-Journal.rb simply creates a file following the `YYYY-MM-DD.md` naming convention that Obsidian uses for daily notes. This file will be created in your notes directory following a template that's listed in the script. Currently, it pulls some weather data from Environment Canada, adds some boilerplate tasks for the day, and embeds links to the previous five days of daily notes.
+Journal.rb simply creates a file following the `YYYYMMDD.md` naming convention that Obsidian uses for daily notes. This file will be created in your notes directory following a template that's listed in the script. Currently, it pulls some weather data from Environment Canada, adds some boilerplate tasks for the day, and embeds links to the previous five days of daily notes.
 
 Note that it will not overwrite the daily note for today if it already exists. It will only ever append to it.
 
