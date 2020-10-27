@@ -15,7 +15,7 @@ links = "links: [[+100 Projects MOC|P]][[+200 Areas MOC|A]][[+300 Resources MOC|
 "\n"\
 "---"
 
-weather_raw = `curl -s https://weather.gc.ca/rss/city/ab-52_e.xml`
+weather_raw = `curl -s https://weather.gc.ca/rss/city/bc-69_e.xml`
 today_weather_raw = weather_raw.split('<entry>').slice(3..4).join
 today_weather_list = today_weather_raw.scan(/.*<title>(.*)<\/title>/).flatten
 

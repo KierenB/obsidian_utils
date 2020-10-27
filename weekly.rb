@@ -31,9 +31,9 @@ weekly_template = <<~WEEKLY
     
   ## Last week [[#{(today-7).strftime('%G-wk%V')}]]
   ### Tasks:
-  - [ ] Add meetings from last week to contacts and events
-  - [ ] Make sure all [[TODO]] items have been transferred into Things
-  - [ ] Conduct weekly review [[202007231243 Weekly review process]]
+  - Add meetings from last week to contacts and events
+  - Make sure all [[TODO]] items have been transferred into Things
+  - Conduct weekly review [[202007231243 Weekly review process]]
     
   ### Biggest wins:
   - 
